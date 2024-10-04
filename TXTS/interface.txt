@@ -1,0 +1,122 @@
+
+
+Base City map Screen
+==================================================
+City_name
+
+1) Pokémon Center
+2) Item Shop
+3) name's Gym
+4) House
+5) (Specific building of the city)
+
+(X) Pokémon (X) Bag (X) Pokédex (X) Trainer (X) Options
+==================================================
+
+
+
+Pokemon center
+==================================================
+Place_name's Pokémon Center
+                            | o  o  o      __
+1) Cure Pokémon             |_o__o__o_____|__|___                                   
+2) Use Pc                     Healing      PC 
+
+(X) Pokémon (X) Bag (X) Pokédex (X) Trainer (X) Options
+==================================================
+
+
+
+Confirm screen
+==================================================
+Confirm action?
+(Y) Yes (N) No
+==================================================
+
+
+
+Pc Screen
+==================================================
+index) pokemon name
+
+(X) Push to team (X) Pokédex
+==================================================
+
+
+
+Base Shop
+==================================================
+Place_name's Item Shop
+
+1) Poke ball: $200             _____---_____
+2) Great ball: $600           |     S H O P |
+3) Ultra ball: $1.200         +=============+
+4) Medicine: $100             | |__|   |  | |
+5) Potion: $300               |        | º| |
+6) Revive: $500            ---------------------
+
+Money: $XXX  (X) Bag (X) Options
+==================================================
+
+
+
+Base Rout map Screen
+==================================================
+Rout number
+ 
+map of rout:(rout)  // study matrix and clr screen
+
+(X) Pokémon (X) Bag (X) Pokédex (X) Trainer (X) Options
+==================================================
+
+
+
+Bag Screen
+==================================================
+index) Itens xNUM
+
+(x) use (x) exit
+==================================================
+
+
+
+Use screen
+==================================================
+Use "iten's name" in:
+1) Pokemon
+2) Pokemon
+3) Pokemon
+4) Pokemon
+5) Pokemon
+6) Pokemon
+
+(X) exit
+==================================================
+
+
+
+Pokémon team screen
+==================================================
+1) Pokemon : type
+2) Pokemon : type
+3) Pokemon : type
+4) Pokemon : type
+5) Pokemon : type
+6) Pokemon : type
+
+(X) Select (X) exit
+==================================================
+
+
+
+Pokémon Select screen
+==================================================
+name
+type: type
+life: XX
+level: XX (XX xp)
+Bool 1
+Bool 2
+
+(X) exit
+==================================================

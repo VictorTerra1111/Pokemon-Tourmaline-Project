@@ -1,0 +1,69 @@
+Horsea Water 
+Seadra Water 
+Gonnarch Water Flying
+Magby Fire
+Magmar Fire
+Magpultor Fire Rock
+Fomantis Grass
+Luratins Grass
+Persuatins Grass Fairy
+Larting Bug poison
+Vunastic Bug poison
+Larnastic Bug Steel
+Centry Normal
+Centropolus Normal
+Centrelio Normal Fire 
+Finjay Normal Flying
+Halljay Normal Flying 
+Tranjay Normal Flying 
+Bulbasaur Grass Ground
+Ivysaur Grass Ground
+Venusaur Grass Dark
+Charmander Fire
+Charmeleon Fire
+Charizard Fire Flying
+Squirtle Water
+Wartortle Water
+Blastoise Water
+Pichu Electric
+Pikachu Electric
+Raichu Electric
+Psyduck Water
+Madark Water Dark
+Golduck Water
+Lugsalor Fighting Water
+Lugirate Fighting Fire
+Asforus Ground
+Pinchera Ground Rock
+Pakiu Rock 
+Pakior Rock 
+Pakiartric Rock Electric
+Mindario Psychic
+Maitor Psychic
+Vantetor Psychic
+Pusbiar Normal
+Purboam Normal Fairy
+Mawporis Dark Fire
+Shellder Water
+Cloyster Water Steel
+Purodian Flying Ghost 
+Gastly Ghost Poison
+Haunter Ghost Poison
+Gengar Ghost Poison
+Eevee Normal
+Vaporeon Water
+Jolteon Electric
+Flareon Fire
+Glacon Ice
+Leafeon Grass
+Umbreon Dark
+Espeon Psychic 
+Sylveon Fairy
+Bladeon Steel
+Ceturon Dragon
+Ambulodra Dragon Water
+Noptedra Dragon Poison
+Veracton Grass Ghost
+Lavorus Fairy Dragon
+Danterius Electric Dark
+Witnelle Psychic Bug
