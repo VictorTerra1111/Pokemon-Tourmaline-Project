@@ -19,6 +19,6 @@ int main(){
     ArrayList poke_team;
     poke_team.add(partner);
     partner.upload();
-
+    poke_team.clear();
     return 0;
 }

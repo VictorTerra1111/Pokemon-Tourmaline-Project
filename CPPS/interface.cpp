@@ -131,6 +131,7 @@ bool yesORno_box(){
             cout << "==================================================" << endl;
         }
     }while( input != "");
+    return true;
 }
 
 void credits(){
