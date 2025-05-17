@@ -7,14 +7,16 @@
 
 using namespace std;
 
-Trainer ReadTrainerInfo(){
-    string name; //variables for storing the data in the file save1.txt 
+Trainer ReadTrainerInfo()
+{
+    string name; // variables for storing the data in the file save1.txt
     int badges, money, level;
 
-    ifstream infile; //file var
-    infile.open("TXTS/save1.txt"); //open file
+    ifstream infile;               // file var
+    infile.open("TXTS/save1.txt"); // open file
 
-    if (!infile) { // testing if opening went well
+    if (!infile)
+    { // testing if opening went well
         cerr << "ERROR IN FILE: TRAINER READ" << std::endl;
         Trainer missingno("file error");
         return missingno;
@@ -22,18 +24,20 @@ Trainer ReadTrainerInfo(){
 
     // Read the file line by line and store the data
     infile >> name >> badges >> money >> level;
-   //position and progress 
+    // position and progress
     Trainer player(name, badges, level, money); // after reading data, creates the player again
-    infile.close(); //close file
-    
+    infile.close();                             // close file
+
     return player;
 }
 
-bool WriteTrainerInfo(Trainer player){
+bool WriteTrainerInfo(Trainer player)
+{
     ofstream outfile;
     outfile.open("TXTS/save1.txt");
 
-    if(!outfile) {
+    if (!outfile)
+    {
         cerr << "ERROR IN FILE: TRAINER WRITE" << endl;
         return false;
     }
@@ -42,26 +46,28 @@ bool WriteTrainerInfo(Trainer player){
     outfile << player.getbadges() << " ";
     outfile << player.getmoney() << " ";
     outfile << player.getlevel() << endl;
-   //position and progress 
+    // position and progress
     outfile.close();
 
     cout << "DATA SAVED" << endl;
-    
+
     return true;
 }
 
-bool ReadTeamInfo(){
+bool ReadTeamInfo()
+{
     ifstream infile;
     infile.open("TXTS/team_save1.txt");
 
-    if (!infile) {
+    if (!infile)
+    {
         cerr << "ERROR IN FILE: TEAM READ" << std::endl;
         return false;
     }
     string name;
     string type;
     string subtype;
-        
+
     int level;
     int xp;
     int stage;
@@ -70,12 +76,12 @@ bool ReadTeamInfo(){
     bool mythical;
     bool legendary;
     bool evolve;
-//  terminar leitura com while 
-    
-    return true; 
-}
+    //  terminar leitura com while
 
-bool WriteTeamInfo(){
     return true;
 }
 
+bool WriteTeamInfo()
+{
+    return true;
+}

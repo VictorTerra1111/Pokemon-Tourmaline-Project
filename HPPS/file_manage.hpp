@@ -11,5 +11,4 @@ bool ReadTeamInfo();
 
 bool WriteTeamInfo();
 
-
 #endif

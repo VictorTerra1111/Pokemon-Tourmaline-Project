@@ -5,46 +5,45 @@
 
 using namespace std;
 
-class Pokemon{
-    private:
-        string name;
-        string type;
-        string subtype;
-        
-        int level;
-        int xp;
-        int stage;
+class Pokemon
+{
+private:
+    string name;
+    string type;
+    string subtype;
 
-        bool shiny;
-        bool mythical;
-        bool legendary;
-        bool evolve;
+    int level;
+    int xp;
+    int stage;
 
-    public:
+    bool shiny;
+    bool mythical;
+    bool legendary;
+    bool evolve;
 
-        Pokemon(string vname = "missingno", string vtype = "NULL", string subtype = "NULL");
+public:
+    Pokemon(string vname = "missingno", string vtype = "NULL", string subtype = "NULL");
 
-        int getlevel() const;
-        int getxp() const;
-        int getstage() const;
+    int getlevel() const;
+    int getxp() const;
+    int getstage() const;
 
-        bool getshiny() const;
-        bool getmythical() const;
-        bool getlegendary() const;
-        bool getevolve() const;
+    bool getshiny() const;
+    bool getmythical() const;
+    bool getlegendary() const;
+    bool getevolve() const;
 
-        
-        string getname() const;
-        string gettype()const;
-        string getsubtype() const;
+    string getname() const;
+    string gettype() const;
+    string getsubtype() const;
 
-        bool canevolve();
-        void shinycalculate();
-        bool islegendary(string namepkmn);
-        bool ismythical(string namepkmn);
+    bool canevolve();
+    void shinycalculate();
+    bool islegendary(string namepkmn);
+    bool ismythical(string namepkmn);
 
-        string upload() const;
-        //fazer outro metodo
+    string upload() const;
+    // fazer outro metodo
 };
 
 #endif

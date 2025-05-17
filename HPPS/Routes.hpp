@@ -1,7 +1,8 @@
 #ifndef ROUTES_HPP
 #define ROUTES_HPP
 
-struct Routes{
+struct Routes
+{
     /*
     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -25,8 +26,6 @@ struct Routes{
     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
     */
-
 };
-
 
 #endif

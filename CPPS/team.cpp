@@ -5,18 +5,20 @@
 
 using namespace std;
 
-
-ArrayList::ArrayList(){
+ArrayList::ArrayList()
+{
     max = 6;
     num = 0;
     list = new Pokemon[max];
 }
 
-ArrayList::~ArrayList(){
+ArrayList::~ArrayList()
+{
     clear();
 }
 
-void ArrayList::ArrayList::clear(){
+void ArrayList::ArrayList::clear()
+{
     delete[] list;
     num = 0;
 }
@@ -84,4 +86,3 @@ bool ArrayList::contains(const Pokemon &e)
     }
     return false;
 }
-

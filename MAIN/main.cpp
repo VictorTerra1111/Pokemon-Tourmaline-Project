@@ -11,10 +11,12 @@
 
 using namespace std;
 
-int main(){
-    
-    if(!full_first_interface()) return 0;
-    
+int main()
+{
+
+    if (!full_first_interface())
+        return 0;
+
     Pokemon partner = professor_dialogue();
     ArrayList poke_team;
     poke_team.add(partner);

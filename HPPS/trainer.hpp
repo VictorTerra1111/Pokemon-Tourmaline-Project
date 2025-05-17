@@ -7,42 +7,43 @@
 #include "pokemon.hpp"
 #include "item.hpp"
 
-class Trainer{
-    private:
-        ArrayList team;
+class Trainer
+{
+private:
+    ArrayList team;
 
-        string name;
+    string name;
 
-        int badges;
-        int level;
-        int money;
-        int pokedex;
-        int xp;
+    int badges;
+    int level;
+    int money;
+    int pokedex;
+    int xp;
 
-        // Item bag;
-    public:
-        Trainer(const string &vname, int vbadges, int vlevel, int vmoney);
-        
-        Trainer(const string &vname);
+    // Item bag;
+public:
+    Trainer(const string &vname, int vbadges, int vlevel, int vmoney);
 
-        int getxp() const;
-        int getbadges() const;
-        int getpokedex() const;
-        int getlevel() const;
-        string getname() const;
-        int getmoney()const;
+    Trainer(const string &vname);
 
-        int upmoney(unsigned int value);
-        int downmoney(unsigned int value);
+    int getxp() const;
+    int getbadges() const;
+    int getpokedex() const;
+    int getlevel() const;
+    string getname() const;
+    int getmoney() const;
 
-        int uplevel(int vxp);
-        int upbad(int num = 1);
-        int upxp(unsigned int vxp);
+    int upmoney(unsigned int value);
+    int downmoney(unsigned int value);
 
-        void add_team(Pokemon newpoke);
-        
-        //bool updex(Pokemon newpoke);
-        //add bag 
+    int uplevel(int vxp);
+    int upbad(int num = 1);
+    int upxp(unsigned int vxp);
+
+    void add_team(Pokemon newpoke);
+
+    // bool updex(Pokemon newpoke);
+    // add bag
 };
 
-#endif 
+#endif
